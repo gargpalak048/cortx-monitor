@@ -112,6 +112,9 @@ SSPL_SB_REQUEST = f"{SB_DATA_PATH}/sspl-sb-req.txt"
 # required only for system health
 HEALTH_UNDESIRED_VALS = ["N/A", ""]
 
+# Default SSPl server supported FRU list
+SSPL_SUPPORTED_FRUS = ['disk', 'psu', 'fan']
+
 # required only for init
 component = 'sspl/config'
 file_store_config_path = '/etc/sspl.conf'
